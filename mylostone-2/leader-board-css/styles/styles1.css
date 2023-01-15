@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding:  0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F3F1FF;
+
+}
+
+main {
+    width: 1000px;
+
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.player-profile {
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+.section-title,
+.top-blog {
+    margin-left: 50px;
+    color: #562EFF;
+    font-size: 24px;
+    margin-bottom: 40px;
+
+
+
+}
+
+.top-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.photo {
+    width: 56px;
+    height: 56px;
+
+}
+
+.name {
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 30px 50px;
+    padding: initial;
+
+}
+
+.article {
+    display: flex;
+
+}
+
+.image {
+    width: 177px;
+    height: 117px;
+    margin-bottom: 25px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+}
+
+.description {
+    width: 164px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.paragraph {
+    margin-left: 15px;
+}
+
+.lets-course {
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.create-blog {
+    background: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 5px 10px;
+
+}
+
+.react {
+    font-weight: 500;
+    font-size: 20px;
+    width: 250px;
+}
+
+.images {
+    width: 266px;
+    height: 141px;
+    margin-bottom: 20px;
+
+}
